@@ -17,7 +17,7 @@ This boilerplate is a template for building a **REST API** using **Go Gin**, fea
 - ✅ **CRUD for Users & Orders**
 - ✅ **Middleware for authorization**
 - ✅ **Data Preloading with GORM**
-- ✅ **Dockerized Setup (App & Database)**
+- ✅ **Dockerized Setup (App)**
 
 ## 📂 Project Structure
 
