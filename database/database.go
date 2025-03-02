@@ -5,6 +5,7 @@ import (
 	"log"
 	"test-dbo/config"
 	"test-dbo/models"
+	"test-dbo/seeder"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -33,4 +34,6 @@ func ConnectDB() {
 	DB.AutoMigrate(&models.OrderItem{})
 	DB.AutoMigrate(&models.Product{})
 	DB.AutoMigrate(&models.UserHistory{})
+
+	seeder.SeedAll(DB)
 }
