@@ -155,11 +155,11 @@ JWT_SECRET=mysecretkey
 ```
 
 ## 📊 Entity Relationship Diagram (ERD)
-Berikut adalah ERD dari database yang digunakan dalam proyek ini:
+The following is the ERD of the database used in this project:
 
 ![alt text](https://res.cloudinary.com/dwckpepep/image/upload/v1740932595/ERD_test_dbo_xl6oko.png)
 
-Untuk melihat dan mengedit ERD lebih lanjut, kunjungi link berikut: [dbdiagram.io](https://dbdiagram.io/d/ERD-test-dbo-67c482dc263d6cf9a0f3563d)
+To see more ERDs, visit the following link: [dbdiagram.io](https://dbdiagram.io/d/ERD-test-dbo-67c482dc263d6cf9a0f3563d)
 
 ## 🎯 TODO (Future Enhancements)
 - 🔄 **Refresh Token Implementation**
